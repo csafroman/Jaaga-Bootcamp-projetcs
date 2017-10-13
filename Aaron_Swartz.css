@@ -1,0 +1,238 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+header {
+	background-color: #373737;
+	text-align: center;
+	/*position: fixed;*/
+	/*top: 0;*/
+	height: auto;
+	line-height: 75px;
+	padding-bottom: 0;
+	width: 100%;
+}
+header h1{
+	color: white;
+	word-spacing: 15px;
+	font-size: 45px;
+	font-family: 'Gentium Basic', serif;
+	font-weight: bold;
+}
+nav ul li{
+	list-style: none;
+	display: inline;
+	padding: 35px;
+	color: white;
+	letter-spacing: 2px;
+	font-family: 'Gentium Basic', serif;
+	font-size: 17px;
+	font-weight: bold;		
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+main{
+	padding-top: 25px;
+	background-color: #d5d5d5;
+}
+#main-div{
+	width:auto;
+	margin: 225px;
+	margin-top: 17px;
+	margin-bottom: 17px;
+}
+.left-side{
+	margin-left: auto;
+	margin-right: 50px;
+	text-align: left;
+	float: left;
+	max-width: 475px;
+}
+#aaron-image{
+	margin-bottom: 75px;
+}
+figure figcaption{
+	font-style: italic;
+	text-align: right;
+}
+.left-side div h2{
+	font-family: 'Slabo 27px', serif;
+	font-weight: bold;
+	padding-bottom: 10px;
+	font-size: 18px;
+}
+#quotes{
+	margin-bottom: 75px;
+}
+.quote-para{
+	padding: 10px;
+	padding-left: 0;
+}
+.quote{
+	font-style:italic;
+	font-size: 17.5px;
+	font-family: 'Slabo 27px', serif;
+	text-align: left;
+	max-width: auto;
+	word-spacing: 3px;
+}
+#quick-facts{
+	border: 2px;
+	border-style: solid;
+	border-color: #CC9966;
+	width: inherit;
+	text-align: center;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-bottom: 25px;
+	line-height: 30px;
+}
+#quick-facts h2{
+	font-family: 'Slabo 27px', serif;
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+#quick-facts dt{
+	font-family: 'Slabo 27px', serif;
+	font-size:22px;	
+	color: #CC9966;
+}
+#quick-facts dd{
+	font-family: 'Slabo 27px', serif;
+	font-size:22px;
+	margin-bottom: 20px;		
+}
+#article{
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: auto;
+	margin-bottom: 65px;
+	/*position: absolute;*/
+}	
+#article-title{
+	text-align: left;
+	font-size: 30px;
+	font-family: 'Slabo 27px', serif;
+	font-weight: bold;
+	margin-bottom: 13px;
+}
+article p{
+	font-family: 'Catamaran', sans-serif;
+	font-size: 20px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	word-spacing: 1px;
+	line-height: 150%; 
+}
+.first-letter-of-article{
+	font-size: 35px;
+}
+.in-article{
+	color: #CC9966;
+	text-decoration: none;
+	font-weight: bold;
+}
+#article a:hover{
+	color: #681B09;
+}
+.in-article abbr{
+	text-decoration: none;
+}
+#testimonials{
+	clear: both;
+	width: auto;
+	margin-left: 225px;
+	margin-right: 225px;
+	text-align: center;
+	margin-bottom: 80px;
+}
+#testimonials h2{
+	font-size: 30px;
+	font-family: 'Slabo 27px', serif;
+	font-weight: bold;
+	/*margin-bottom: 10px;*/
+}
+#testimonials figure{
+	border: 2px;
+	border-style: solid;
+	border-color: #CC9966;
+}
+#testimonials img{
+	padding:30px;
+}
+#documentary{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 80px;
+}
+#documentary h2{
+	font-size: 30px;
+	font-family: 'Slabo 27px', serif;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+#documentary p{
+	font-family: 'Catamaran', sans-serif;
+	word-spacing: 1px;
+	font-weight: bold;
+	font-size: 20px;
+}
+#documentary a{
+	text-decoration: none;
+	color: #CC9966;
+	font-family: 'Catamaran', sans-serif;
+	font-size: 25px; 
+	font-weight: bold;
+}
+#documentary a:hover{
+	color: #681B09;
+}
+#to-know-more{
+	font-size: 30px;
+	font-family: 'Slabo 27px', serif;
+	font-weight: bold;
+	margin-bottom: 15px;
+	text-align: center;
+}
+#to-know-more h2{
+	margin-bottom: 15px;
+}
+#to-know-more a{
+	text-decoration: none;
+	color: #CC9966;
+	font-size: 30px;
+	padding: 30px; 
+}
+#to-know-more a:hover{
+	color: #681B09;
+}
+footer{
+	background-color: #373737;
+	text-align: center;
+}
+footer a{
+	color: white;
+	text-decoration: none;
+}
+@media only screen and (max-width: 1390px) {
+	
